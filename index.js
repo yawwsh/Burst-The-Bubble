@@ -5,11 +5,11 @@ document.addEventListener("click", function (event) {
   });
 
 function startGame(){
+    document.querySelector("#hit")=0;
     initialScore=0;
     makeBubble();
     runTimer();
     HITgen();    
-    document.querySelector("#hit")=0;
 }
 function makeBubble(){
     let bubbles = "";
