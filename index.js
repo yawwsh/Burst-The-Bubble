@@ -9,6 +9,7 @@ function startGame(){
     makeBubble();
     runTimer();
     HITgen();    
+    document.querySelector("#hit")=0;
 }
 function makeBubble(){
     let bubbles = "";
@@ -59,5 +60,6 @@ function gameover(){
     <h4>FINAL SCORE: ${initialScore}</h4>
     <button id="btn"><i class="ri-gamepad-fill"></i>  PLAY AGAIN</button>
 </div>`;
+
     bottom.innerHTML = lorem;
 }
