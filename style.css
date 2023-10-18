@@ -1,0 +1,145 @@
+/* This is boiler plate for CSS always write before starting */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+/* End of boiler Plate */
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(108, 213, 108, 0.767);
+}
+#panel{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border-radius: 40px;
+    overflow: hidden;
+}
+#ptop{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 15%;
+    background-color: rgba(0, 128, 0, 0.742);
+    
+}
+.elem{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10%;
+    height: 30%;
+    color: white;
+    font-family:cursive;
+    font-weight: 800;
+}
+.box{
+    margin-left: 10px;
+    padding: 5px 40px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    font-weight: 600;
+    overflow: hidden;
+    text-align: center;
+    font-family: cursive;
+    font-size: larger;
+    font-weight: 800;
+    text-align: center;
+}
+#pbtm{
+    padding: 5px 5px;
+    flex-wrap: wrap; /*jisse elements linke ke neeche bhi aa jaye*/
+    height: 85%;
+    width: 100%;
+    background-color:floralwhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 12px;
+}
+#finish{
+    text-align: center;
+    font-size: x-large;
+    font-family:'Courier New', Courier, monospace;
+}
+#finish h3{
+    padding-bottom: 20px;
+    font-size: xx-large;
+    font-weight: 800;
+}
+#finish h4{
+    padding-bottom: 20px;
+    font-size: xx-large;
+    font-weight: 800;
+}
+button{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    font-weight: 800;
+    background-color: rgba(36, 189, 36, 0.817);
+    padding: 2vw;
+    border-radius: 20px;
+}
+button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: green;
+}
+
+.bubble{
+    /* padding: 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12%;
+    width: 5%;
+    background-color:limegreen;
+    color:black;
+    border-radius: 50%;
+    font-size: x-large;
+    font-weight: 800;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: green;
+    color:white;
+}
+@media (max-width:700px){
+    #ptop{
+        height: 16%;
+    }
+    .elem{
+        display: block;
+    }
+    .box{
+        margin-bottom:5px;
+        margin-left: 0px;
+        padding: 0px 30px;
+    }
+    #pbtm{
+        gap: 13px;
+    }
+    .bubble{
+        width: 9%;
+        height:9%;
+        font-family: cursive;
+        font-weight: 700;
+        font-size: medium;
+    }
+}
