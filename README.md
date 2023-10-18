@@ -16,7 +16,7 @@ Welcome to Burst The Bubble, an engaging number matching game that will test you
 
 Play Burst The Bubble now and see how high you can score!
 
-[link]
+https://illustrious-starship-30e053.netlify.app/
 
 # Contribution:
 
