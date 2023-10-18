@@ -22,7 +22,7 @@ function makeBubble(){
     bottom.innerHTML = bubbles;
 }
 function runTimer(){
-    let timer = 6;
+    let timer = 61;
     let t = document.querySelector("#time");
    var timerInterval = setInterval(() => {
     timer--;
