@@ -49,6 +49,7 @@ function scoreUpdate(){
 var bubbleHit = document.querySelector("#pbtm");
 bubbleHit.addEventListener("click",function(dets){
     if(Number(dets.target.textContent)==Number(hitNUM.textContent)){
+        makeBubble();
         scoreUpdate();
         HITgen();
     }
